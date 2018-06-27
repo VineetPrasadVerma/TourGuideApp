@@ -38,13 +38,13 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new TopAttractionFragment();
+            return new HistoricalPublicPlacesFragment();
         }else if(position == 1){
-            return new AnnualEventFragment();
+            return new MajorAttractionFragment();
         }else if(position == 2){
-            return new RestaurantFragment();
+            return new PlaceForFoodiesFragment();
         }else{
-            return new HotelsFragment();
+            return new AccommodationFragment();
         }
     }
 

@@ -11,10 +11,10 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class RestaurantFragment extends Fragment {
+public class HistoricalPublicPlacesFragment extends Fragment {
 
 
-    public RestaurantFragment() {
+    public HistoricalPublicPlacesFragment() {
         // Required empty public constructor
     }
 

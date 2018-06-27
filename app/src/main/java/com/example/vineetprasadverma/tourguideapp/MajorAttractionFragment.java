@@ -2,6 +2,7 @@ package com.example.vineetprasadverma.tourguideapp;
 
 
 import android.os.Bundle;
+
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,10 +12,10 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TopAttractionFragment extends Fragment {
+public class MajorAttractionFragment extends Fragment {
 
 
-    public TopAttractionFragment() {
+    public MajorAttractionFragment() {
         // Required empty public constructor
     }
 

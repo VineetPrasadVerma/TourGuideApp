@@ -2,7 +2,6 @@ package com.example.vineetprasadverma.tourguideapp;
 
 
 import android.os.Bundle;
-
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,10 +11,10 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class AnnualEventFragment extends Fragment {
+public class PlaceForFoodiesFragment extends Fragment {
 
 
-    public AnnualEventFragment() {
+    public PlaceForFoodiesFragment() {
         // Required empty public constructor
     }
 

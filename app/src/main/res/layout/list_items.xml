@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/eighty_eight_dp"
+    android:padding="@dimen/sixteen_dp">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="@dimen/eighty_eight_dp"
+        android:layout_height="@dimen/eighty_eight_dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/eighty_eight_dp"
+        android:layout_toRightOf="@id/image_view"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/sixteen_dp">
+
+        <TextView
+            android:id="@+id/place_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:text="Gwalior Fort" />
+
+        <TextView
+            android:id="@+id/opening_hours"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textColor="@android:color/black"
+            tools:text="10 AM - 8 PM " />
+
+        <RatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            android:numStars="5"
+            android:stepSize="0.1"
+            android:rating="3.5"
+            android:isIndicator="true"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/twenty_four_dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="Click Here" />
+
+
+</RelativeLayout>
