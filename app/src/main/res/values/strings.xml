@@ -3,7 +3,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="historical_public_places">Historical/Public Places</string>
+    <string name="historical_public_places">Historical Places</string>
     <string name="major_attraction">Major Attraction</string>
     <string name="place_for_foodies">Place For Foodies</string>
     <string name="accommodation">Accommodation</string>
