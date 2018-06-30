@@ -13,6 +13,19 @@
         android:scaleType="centerCrop"
         android:src="@drawable/fort" />
 
+    <TextView
+        android:id="@+id/splash_text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/loading_spinner"
+        android:layout_marginBottom="@dimen/sixteen_dp"
+        android:text="@string/gwalior_tourism"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/thirty_two_dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold" />
 
     <ProgressBar
         android:id="@+id/loading_spinner"
@@ -23,17 +36,4 @@
         android:indeterminateDrawable="@drawable/progress_drawable"
         android:layout_marginBottom="@dimen/fifty_dp" />
 
-
-
-    <TextView
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="@dimen/sixteen_dp"
-        android:text="@string/design_villa"
-        android:textColor="@android:color/white"
-        android:textSize="@dimen/twentyfour_dips"
-        android:fontFamily="monospace"
-        android:textStyle="bold" />
 </RelativeLayout>
