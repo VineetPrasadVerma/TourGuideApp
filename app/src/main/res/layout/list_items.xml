@@ -21,6 +21,7 @@
         android:textAllCaps="true"
         android:textColor="@android:color/white"
         android:textSize="@dimen/twenty_four_sp"
+        android:fontFamily="monospace"
         android:textStyle="bold" />
 
     <TextView
@@ -32,6 +33,7 @@
         android:layout_marginLeft="@dimen/sixteen_dp"
         android:textSize="@dimen/eighteen_sp"
         android:textStyle="bold"
+        android:fontFamily="monospace"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="@dimen/twenty_four_dp" />
 
