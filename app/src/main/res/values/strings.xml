@@ -1,10 +1,42 @@
 <resources>
     <string name="app_name">TourGuideApp</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="historical_public_places">Historical Places</string>
     <string name="major_attraction">Major Attraction</string>
     <string name="place_for_foodies">Place For Foodies</string>
     <string name="accommodation">Accommodation</string>
+    <string name="ss_kachori_wala">S.S. Kachori Wala</string>
+    <string name="mama_nasta_bhandar">Mama Nasta Bhandar</string>
+    <string name="dominos_pizza">domino\'s pizza</string>
+    <string name="chaupati">chaupati</string>
+    <string name="alfanzo">alfanzo</string>
+    <string name="kampoo">Near kampoo</string>
+    <string name="no_crossing">7 No crossing</string>
+    <string name="city_center">City Center</string>
+    <string name="foolbagh">foolbagh</string>
+    <string name="Tighra_dam">Tighra Dam</string>
+    <string name="moti_mahal">Moti Mahal</string>
+    <string name="gwalior_mela">Gwalior Mela/fair</string>
+    <string name="katora_tal">Katora Tal</string>
+    <string name="dd_mall">DD Mall</string>
+    <string name="twenty_four_hours">24 Hours</string>
+    <string name="eleven_am_to_eleven_pm">11 A.M.- 11 P.M.</string>
+    <string name="dec_feb">Dec-feb</string>
+    <string name="eleven_am_to_ten_pm">11 A.M.- 10 P.M.</string>
+    <string name="gwalior_fort">Gwalior Fort</string>
+    <string name="jai_vilas_palace">Jai Vilas Place</string>
+    <string name="mausoleumo_of_tansen">Mausoleums of Tansen</string>
+    <string name="sas_bahu_ka_mandir">Sas Bahu ka mandir</string>
+    <string name="gopachal_parvat">Gopachal Parvat</string>
+    <string name="eight_am_to_ten_pm">8:00 A.M.- 10:00 P.M.</string>
+    <string name="ten_am_to_ten_pm">10 A.M.- 5 P.M.</string>
+    <string name="eight_am_to_eight_pm">8 A.M.- 8 P.M.</string>
+    <string name="twelve_am_to_twelve_pm">12 P.M.- 12 A.M.</string>
+    <string name="hotel_regency">Hotel Regency</string>
+    <string name="hotel_shelter">Hotel Shelter</string>
+    <string name="hotel_raddison">Hotel Raddison</string>
+    <string name="hotel_sugar_palm">Hotel Sugar Palm</string>
+    <string name="mk_vivanta">M.K. Vivanta</string>
+    <string name="near_railway_station">Near Railway station</string>
+    <string name="padav">padav</string>
+    <string name="govindpuri">Govindpuri</string>
 </resources>

@@ -75,11 +75,11 @@ public class MajorAttractionFragment extends Fragment {
         //Create a ArrayList of places.
         final ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place("Tighra Dam", "24 Hours", R.drawable.tighra_dam, R.raw.tighra, 3.5f));
-        places.add(new Place("Moti Mahal", "11 A.M.- 11 P.M.", R.drawable.motimahal, R.raw.motimahal, 2.5f));
-        places.add(new Place("Gwalior Mela/fair", "Dec-feb", R.drawable.gwalior_mela, R.raw.gwaliormela, 5));
-        places.add(new Place("Katora Tal", "11 A.M.- 11 P.M.", R.drawable.katora_tal, R.raw.kotoratal, 4));
-        places.add(new Place("DD Mall", "11 A.M.- 10 P.M.", R.drawable.dd_mall, R.raw.ddmall, 4.5f));
+        places.add(new Place(getString(R.string.Tighra_dam), getString(R.string.twenty_four_hours), R.drawable.tighra_dam, R.raw.tighra, 3.5f));
+        places.add(new Place(getString(R.string.moti_mahal), getString(R.string.eleven_am_to_eleven_pm), R.drawable.motimahal, R.raw.motimahal, 2.5f));
+        places.add(new Place(getString(R.string.gwalior_mela), getString(R.string.dec_feb), R.drawable.gwalior_mela, R.raw.gwaliormela, 5));
+        places.add(new Place(getString(R.string.katora_tal), getString(R.string.eleven_am_to_eleven_pm), R.drawable.katora_tal, R.raw.kotoratal, 4));
+        places.add(new Place(getString(R.string.dd_mall), getString(R.string.eleven_am_to_ten_pm), R.drawable.dd_mall, R.raw.ddmall, 4.5f));
 
         // Create an PlaceAdapter, whose data source is a list of places. The
         // adapter knows how to create list items for each item in the list.

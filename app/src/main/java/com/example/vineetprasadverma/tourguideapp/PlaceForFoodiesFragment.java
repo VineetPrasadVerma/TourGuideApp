@@ -74,11 +74,11 @@ public class PlaceForFoodiesFragment extends Fragment {
         //Create a ArrayList of places.
         final ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place("S.S. Kachori Wala", "Near kampoo", R.drawable.sskachori, R.raw.sskachodiwala, 3.5f));
-        places.add(new Place("Mama Nasta Bhandar", "7 No crossing", R.drawable.mama_nasta_bhandar, R.raw.mamanastabhandar, 1));
-        places.add(new Place("domino's pizza ", "City Center", R.drawable.dominoz_pizza, R.raw.dominospizza, 5));
-        places.add(new Place("chaupati", "foolbagh", R.drawable.chaupati, R.raw.chaupati, 4.5f));
-        places.add(new Place("alfanzo", "city center", R.drawable.alfanzo, R.raw.alfanzo, 5f));
+        places.add(new Place(getString(R.string.ss_kachori_wala), getString(R.string.kampoo), R.drawable.sskachori, R.raw.sskachodiwala, 3.5f));
+        places.add(new Place(getString(R.string.mama_nasta_bhandar), getString(R.string.no_crossing), R.drawable.mama_nasta_bhandar, R.raw.mamanastabhandar, 1));
+        places.add(new Place(getString(R.string.dominos_pizza), getString(R.string.city_center), R.drawable.dominoz_pizza, R.raw.dominospizza, 5));
+        places.add(new Place(getString(R.string.chaupati), getString(R.string.foolbagh), R.drawable.chaupati, R.raw.chaupati, 4.5f));
+        places.add(new Place(getString(R.string.alfanzo), getString(R.string.city_center), R.drawable.alfanzo, R.raw.alfanzo, 5f));
 
         // Create an PlaceAdapter, whose data source is a list of places. The
         // adapter knows how to create list items for each item in the list.

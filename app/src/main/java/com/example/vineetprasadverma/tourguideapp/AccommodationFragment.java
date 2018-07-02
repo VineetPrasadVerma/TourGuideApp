@@ -74,11 +74,11 @@ public class AccommodationFragment extends Fragment {
         //Create a ArrayList of places.
         final ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place("Hotel Regency", "Near Railway station", R.drawable.regency, R.raw.regency, 3.5f));
-        places.add(new Place("Hotel Shelter", "padav", R.drawable.shelter, R.raw.shelter, 2.5f));
-        places.add(new Place("Hotel Raddison", "City center", R.drawable.raddison, R.raw.raddison, 5));
-        places.add(new Place("Hotel Sugar Palm", "Govindpuri", R.drawable.sgar_plam, R.raw.sugarpalm, 2.5f));
-        places.add(new Place("M.K. Vivanta", "foolbagh", R.drawable.mkvivanta, R.raw.mkvivanta, 4.5f));
+        places.add(new Place(getString(R.string.hotel_regency), getString(R.string.near_railway_station), R.drawable.regency, R.raw.regency, 3.5f));
+        places.add(new Place(getString(R.string.hotel_shelter), getString(R.string.padav), R.drawable.shelter, R.raw.shelter, 2.5f));
+        places.add(new Place(getString(R.string.hotel_raddison), getString(R.string.city_center), R.drawable.raddison, R.raw.raddison, 5));
+        places.add(new Place(getString(R.string.hotel_sugar_palm), getString(R.string.govindpuri), R.drawable.sgar_plam, R.raw.sugarpalm, 2.5f));
+        places.add(new Place(getString(R.string.mk_vivanta), getString(R.string.foolbagh), R.drawable.mkvivanta, R.raw.mkvivanta, 4.5f));
 
         // Create an PlaceAdapter, whose data source is a list of places. The
         // adapter knows how to create list items for each item in the list.

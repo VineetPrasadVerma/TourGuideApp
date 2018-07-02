@@ -10,7 +10,6 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop" />
 
-
     <TextView
         android:id="@+id/place_name"
         android:layout_width="wrap_content"
@@ -18,38 +17,37 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="@dimen/forty_four_dp"
         android:layout_marginLeft="@dimen/sixteen_dp"
+        android:fontFamily="monospace"
         android:textAllCaps="true"
         android:textColor="@android:color/white"
         android:textSize="@dimen/twenty_four_sp"
-        android:fontFamily="monospace"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/opening_hours"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/twenty_four_dp"
+        android:layout_marginLeft="@dimen/sixteen_dp"
+        android:fontFamily="monospace"
         android:textAllCaps="true"
         android:textColor="@android:color/white"
-        android:layout_marginLeft="@dimen/sixteen_dp"
         android:textSize="@dimen/eighteen_sp"
-        android:textStyle="bold"
-        android:fontFamily="monospace"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="@dimen/twenty_four_dp" />
+        android:textStyle="bold" />
 
     <RatingBar
         android:id="@+id/rating"
         style="?android:attr/ratingBarStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/ten_dp"
+        android:layout_marginLeft="@dimen/sixteen_dp"
         android:isIndicator="true"
         android:numStars="5"
         android:rating="3.5"
-        android:stepSize="0.1"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="@dimen/sixteen_dp"
-        android:layout_marginBottom="@dimen/ten_dp"/>
-
+        android:stepSize="0.1" />
 
     <ImageView
         android:layout_width="@dimen/forty_four_dp"
@@ -59,6 +57,5 @@
         android:layout_marginBottom="@dimen/sixteen_dp"
         android:layout_marginRight="@dimen/sixteen_dp"
         android:src="@drawable/baseline_play_arrow_white_48" />
-
 
 </RelativeLayout>

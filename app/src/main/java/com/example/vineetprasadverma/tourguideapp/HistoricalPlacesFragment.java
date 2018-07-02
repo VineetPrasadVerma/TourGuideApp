@@ -74,11 +74,11 @@ public class HistoricalPlacesFragment extends Fragment {
 
         //Create a list of places.
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Gwalior Fort", "8:00 A.M.- 10:00 P.M.", R.drawable.fort, R.raw.fort, 4));
-        places.add(new Place("Jai Vilas Place", "10 A.M.- 5 P.M.", R.drawable.jaivilaspalace, R.raw.jaivilaspalace, 4.5f));
-        places.add(new Place("Mausoleums of Tansen", "8 A.M.- 8 P.M.", R.drawable.mausoleumoftansen, R.raw.mausoleumoftansen, 3.5f));
-        places.add(new Place("Sas Bahu ka mandir", "8:00 A.M.- 10:00 P.M.", R.drawable.sas_bahu_ka_mandir, R.raw.sasbahukamandir, 2));
-        places.add(new Place("Gopachal Parvat", "12 P.M.- 12 A.M.", R.drawable.gopachal_parvat, R.raw.gopachalparvat, 3.5f));
+        places.add(new Place(getString(R.string.gwalior_fort), getString(R.string.eight_am_to_ten_pm), R.drawable.fort, R.raw.fort, 4));
+        places.add(new Place(getString(R.string.jai_vilas_palace), getString(R.string.ten_am_to_ten_pm), R.drawable.jaivilaspalace, R.raw.jaivilaspalace, 4.5f));
+        places.add(new Place(getString(R.string.mausoleumo_of_tansen), getString(R.string.eight_am_to_eight_pm), R.drawable.mausoleumoftansen, R.raw.mausoleumoftansen, 3.5f));
+        places.add(new Place(getString(R.string.sas_bahu_ka_mandir), getString(R.string.eight_am_to_ten_pm), R.drawable.sas_bahu_ka_mandir, R.raw.sasbahukamandir, 2));
+        places.add(new Place(getString(R.string.gopachal_parvat), getString(R.string.twelve_am_to_twelve_pm), R.drawable.gopachal_parvat, R.raw.gopachalparvat, 3.5f));
 
         // Create an PlaceAdapter, whose data source is a list of places. The
         // adapter knows how to create list items for each item in the list.
